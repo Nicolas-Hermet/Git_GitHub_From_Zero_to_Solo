@@ -88,7 +88,7 @@ Je ne parle même pas de la collaboration à plusieurs ! Tellement plus simple.
 
 Les amis de chez NDP Software ont pondu un outil que je trouve personnellement génial pour comprendre le fonctionnement de git, et ainsi se repérer dans la multitude de commandes en ligne : 
 
-<span style="text-align: centered;"><a href="http://ndpsoftware.com/git-cheatsheet.html">![01whygit_05](/pictures/01whygit_06.png)</a> </span> (lien cliquable)
+<span style="text-align: centered;"><a href="http://ndpsoftware.com/git-cheatsheet.html" target="_blank">![01whygit_05](/pictures/01whygit_06.png)</a> </span> (lien cliquable)
 
 
 
