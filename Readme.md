@@ -47,7 +47,7 @@ A un moment donné, vous ressentez le besoin de revenir en arrière. Via `Ctrl +
 
 Cela donnerai ceci : 
 
-![01whygit_02](.\pictures\01whygit_02.png)
+![01whygit_02](/pictures/01whygit_02.png)
 
 où ![01whygit_03](D:\ADN\Formation\Git\pictures\01whygit_03.png) représente un retour en arrière.
 
@@ -66,7 +66,7 @@ Cette fois-ci, utilisons git. Au lieu de simple points, nous allons leurs donner
 - Ø : représente un état quelconque et sauvegardé de votre fichier.
 - $V_{1}$ : représente un **commit** de votre fichier. Imaginez un commit comme une sauvegarde qui aurait un nom.
 
-![01whygit_04](D:\ADN\Formation\Git\pictures\01whygit_04.png)
+![01whygit_04](/pictures/01whygit_04.png)
 
 Cette fois-ci, grâce à git, il vous est tout à fait possible, lorsque vous vous retrouvez en $V_{5}$, de revenir en $V_{1}$, $V_{2}$, $V_{3}$ ou $V_{4}$.  Magique non ?
 
@@ -74,7 +74,7 @@ Cette fois-ci, grâce à git, il vous est tout à fait possible, lorsque vous vo
 
 On peut même imaginer fusionner les différentes version de votre fichier : 
 
-![1550766628198](C:\Users\Nicolas\AppData\Roaming\Typora\typora-user-images\1550766628198.png)
+![1550766628198](/pictures/01whygit_05.png)
 
 Et là vous commencez à sentir l'utilité d'un vrai outil de versionnage de fichiers.
 
@@ -88,7 +88,7 @@ Je ne parle même pas de la collaboration à plusieurs ! Tellement plus simple.
 
 Les amis de chez NDP Software ont pondu un outil que je trouve personnellement génial pour comprendre le fonctionnement de git, et ainsi se repérer dans la multitude de commandes en ligne : 
 
-<span style="text-align: centered;"><a href="http://ndpsoftware.com">![01whygit_05](D:\ADN\Formation\Git\pictures\01whygit_05.png)</a> </span> (lien cliquable)
+<span style="text-align: centered;"><a href="http://ndpsoftware.com/git-cheatsheet.html">![01whygit_05](/pictures/01whygit_06.png)</a> </span> (lien cliquable)
 
 
 
