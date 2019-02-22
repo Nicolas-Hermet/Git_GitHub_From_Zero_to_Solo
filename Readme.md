@@ -47,7 +47,7 @@ A un moment donné, vous ressentez le besoin de revenir en arrière. Via `Ctrl +
 
 Cela donnerai ceci : 
 
-![01whygit_02](D:\ADN\Formation\Git\pictures\01whygit_02.png)
+![01whygit_02](.\pictures\01whygit_02.png)
 
 où ![01whygit_03](D:\ADN\Formation\Git\pictures\01whygit_03.png) représente un retour en arrière.
 
