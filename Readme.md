@@ -230,3 +230,4 @@ git pull <nom du dépôt distant> <Nom de votre branche>
 ```
 
 pour mettre à jour son travail avec le votre.
+
