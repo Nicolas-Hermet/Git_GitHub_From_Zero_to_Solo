@@ -41,7 +41,7 @@ Un autre cas où le `Ctrl + Z` n'est plus si pratique est le suivant.
 
 Imaginons le cas suivant. Vous modifiez votre fichier au fur et à mesure, et vous le sauvegardez régulièrement. Chaque point ci-dessous représente une sauvegarde de votre fichier (soit par vous, soit par votre éditeur de texte). Les traits reliant les points signifient que vous modifiez le fichier : 
 
-![01whygit_01](D:\ADN\Formation\Git\pictures\01whygit_01.png)
+![01whygit_01](.\pictures\01whygit_01.png)
 
 A un moment donné, vous ressentez le besoin de revenir en arrière. Via `Ctrl + Z`par exemple ?
 
