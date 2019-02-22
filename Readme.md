@@ -49,7 +49,7 @@ Cela donnerai ceci :
 
 ![01whygit_02](/pictures/01whygit_02.png)
 
-où ![01whygit_03](D:\ADN\Formation\Git\pictures\01whygit_03.png) représente un retour en arrière.
+où ![01whygit_03](/pictures/01whygit_03.png) représente un retour en arrière.
 
 
 
@@ -100,7 +100,7 @@ On y retrouve les éléments suivants :
 - Dépôt distant : l'endroit où vous lisez ces lignes. Oui GitHub. Mais cela peut être aussi un serveur, un disque dur externe, [GitLab](gitlab.com), n'importe. C'est une sauvegarde à l'identique de tous les commits que vous aurez décidé d'y mettre.
 - Remise : ou stash pour les intimes. Considérez cela comme un espace temporaire. Nous y reviendrons bien plus tard.
 
-#### 
+
 
 ### Espace de travail :
 
@@ -220,3 +220,13 @@ où :
 
 - nom du dépôt distant : est le nom du serveur sur lequel vous envoyez vos modifications. Si vous n'en avez qu'un, il s'appellera `origin` par défaut. Mais vous pouvez le changer, où en avoir plusieurs.
 - Nom de votre branche : est le nom de la branche sur laquelle vous avez travaillé. Je reviendrais plus tard sur cette notion, mais [les graphiques précédents](#CasGit) vous donnent une indication de dont il s'agit.
+
+
+
+Pour récupérer ces modifications, votre collègue pourra exécuter, par la suite, la commande : 
+
+```shell
+git pull <nom du dépôt distant> <Nom de votre branche>
+```
+
+pour mettre à jour son travail avec le votre.
