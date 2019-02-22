@@ -59,7 +59,7 @@ Et bien vous ne pouvez plus, sinon comment savoir si vous souhaitez revenir au p
 
 
 
-#### Le cas avec git
+#### <a id="CasGit" style="text-decoration:none;color:#000">Le cas avec git</a>
 
 Cette fois-ci, utilisons git. Au lieu de simple points, nous allons leurs donner des noms juste pour nous repérer entre nous.
 
@@ -84,7 +84,7 @@ Je ne parle même pas de la collaboration à plusieurs ! Tellement plus simple.
 
 ## Fonctionnement de Git
 
-### Les différents espaces de travail
+### Les différents espaces de git
 
 Les amis de chez NDP Software ont pondu un outil que je trouve personnellement génial pour comprendre le fonctionnement de git, et ainsi se repérer dans la multitude de commandes en ligne : 
 
@@ -98,9 +98,125 @@ On y retrouve les éléments suivants :
 - Index : un espace intermédiaire dans lequel vous direz à git de mettre les fichiers que vous voulez (ou voudrez) sauvegarder.
 - Dépôt local : l'espace dans lequel vous sauvegardez vos modifications, vos fameux **commit**.
 - Dépôt distant : l'endroit où vous lisez ces lignes. Oui GitHub. Mais cela peut être aussi un serveur, un disque dur externe, [GitLab](gitlab.com), n'importe. C'est une sauvegarde à l'identique de tous les commits que vous aurez décidé d'y mettre.
-- Remise : ou stash pour les intimes. Considérez cela comme un espace temporaire. Nous y reviendrons.
+- Remise : ou stash pour les intimes. Considérez cela comme un espace temporaire. Nous y reviendrons bien plus tard.
+
+#### 
+
+### Espace de travail :
+
+Ici, pas de surprises, vous savez comment cela fonctionne : vous le faites tous les jours.
 
 
 
+### Index
+
+En revanche, ici, cela devient plus intéressant. Imaginons le fichier `VotreFichier.txt` suivant : 
+
+```tex
+Ceci est le texte à partir du quel on va partir. Prenez le comme acquis, comme si un collègue vous l'avait donné.
+
+Il a plusieurs lignes.
+
+mé Il ya plain d'error ...
+
+Votre collègue est-il nul ?
+```
 
 
+
+Concrètement vous aller modifier ce fichier qui se trouve dans votre espace de travail. Imaginons donc que vous voulez le modifiez en ceci : 
+
+```tex
+Ceci est le texte à partir du quel on va partir. Prenez le comme acquis, comme si un collègue vous l'avait donné. Il y a moins de lignes.
+Mais cette fois il n'y a plus d'erreurs...
+Mon collègue n'est pas si nul que ça. Il était simplement pressé et a écrit un peu vite.
+```
+
+ 
+
+Vous enregistrez ce document. Il y a donc eu plusieurs modifications. Une pour la mise en forme (de 7 à 3 lignes... comptez bien), une pour les fautes d'orthographes, une autre enfin pour le contenu lui même : votre collègue n'est pas si nul que ça après tout. Mais si vous faites tout d'un coup, votre ligne d'historique ressemblera à ça : 
+
+![01whygit_07](/pictures/01whygit_07.png)
+
+
+
+Pas très intéressant. 
+
+
+
+Nous voulons garder une trace de toutes ces différentes modifications. Et en soit ce n'est pas mentalement épuisant de les distinguer. Vous allez donc commencer par faire la première modification : diminuer le nombre de lignes : 
+
+```tex
+Ceci est le texte à partir du quel on va partir. Prenez le comme acquis, comme si un collègue vous l'avait donné. Il y a moins de lignes.
+mé Il ya plain d'error ...
+Votre collègue est-il nul ?
+```
+
+
+
+Et là : vous voulez "Sauvegarder" cette modification. Regardons d'abord ce que nous donne la commande : 
+
+```shell
+git status
+```
+
+```shell
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   VotreFichier.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+Concrètement ici, git nous dit qu'il a repéré qu'un fichier avait changé, mais que rien ne sera ajouté au prochain commit (comprenez, à la prochaine sauvegarde). Il nous dit aussi que pour cela, il faut utiliser la commande `git add <file>...` Ainsi, on ajoute notre fichier `VotreFichier.txt` dans l'**Index**.
+
+
+
+### Dépôt local
+
+A partir de cet instant on peut exécuter la commande de commit.
+
+```shell
+git add VotreFichier.txt
+```
+
+```shell
+git commit -m "Modifie la mise en forme"
+```
+
+qui donne le résultat dans votre terminal : 
+
+```shell
+[master 3626782] Modifie la mise en forme
+ 1 file changed, 1 insertion(+), 5 deletions(-)
+```
+
+Et on continue la même opération pour toutes les autres modifications. On aura donc trois commits différents, ce qui nous donne le schéma suivant : 
+
+![01whygit_08](/pictures/01whygit_08.png)
+
+Chaque fois qu'un commit est fait, l'espace d'index est vidé, et placé dans l'espace de **dépôt local**. Ce dernier ne contient que les changements effectués entre les différents commits.
+
+En réalité, dans votre éditeur de texte, et tant que vous ne fermez pas votre fichier, vous pourrez toujours faire `Ctrl + Z` pour récupérer des étapes intermédiaires. Mais dans le fond ce ne sont pas elles qui sont importantes, mais bel et bien les points (commits) que vous venez de créer.
+
+
+
+### Dépôt distant
+
+Vous êtes maintenant prêt à partager vos modifications avec vos collègues ! Car pour le moment, tout ce que vous avez fait reste uniquement sur votre machine. C'est à ça que peut servir un dépôt distant. GitHub en est un, mais cela peut être le serveur de données de votre entreprise, bitbucket, gitlab ou bien d'autres.
+
+L'important c'est que ce dépôt distant, dans le cas qui nous préoccupe, soit accessible par vos collègues. On doit donc "envoyer" ces modifications, et on parle alors de `push`.
+
+Cela se fait grâce à la commande : 
+
+```shell
+git push <nom du dépôt distant> <Nom de votre branche>
+```
+
+où : 
+
+- nom du dépôt distant : est le nom du serveur sur lequel vous envoyez vos modifications. Si vous n'en avez qu'un, il s'appellera `origin` par défaut. Mais vous pouvez le changer, où en avoir plusieurs.
+- Nom de votre branche : est le nom de la branche sur laquelle vous avez travaillé. Je reviendrais plus tard sur cette notion, mais [les graphiques précédents](#CasGit) vous donnent une indication de dont il s'agit.
