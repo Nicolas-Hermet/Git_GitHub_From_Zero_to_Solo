@@ -21,3 +21,19 @@
 #### Pourquoi cela ne fonctionne pas pareil pour mes propres repositories ?
 
 #### Cas particulier de la collaboration officielle
+
+### Cas du clonage
+
+### Cas du Fork - de l'utilisation de la Pull Request
+
+#### Pourquoi je ne peux pas push un repository en fork
+
+#### Une pull quoi ?
+
+De quoi s'agit-il ? Quelle utilité ?
+
+#### La pull request nécessaire pour un bon workflow
+
+oui même dans le cas d'un clonage : code review
+
+branches protégées
