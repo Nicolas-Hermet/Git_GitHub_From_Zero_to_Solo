@@ -14,7 +14,7 @@ Ici on va partir de zéro. Oui de zéro. Il suffira de continuer à lire tranqui
 
 ### D'accord, mais quelle stack ? <a id="stack"></a>
 
-La stack n'est pas compliquée puisqu'on va faire très simple : 
+La stack n'est pas compliquée : 
 
 - Windows 10 (oui je sais, c'est le mal)
 - VS Code
@@ -31,7 +31,7 @@ De base lorsque vous mettez à jour un fichier (mettons un document word ou un r
 
 ### Alors pourquoi on s'emm\*\*\*\* avec git ?
 
-Et bien parce qu'une fois que vous fermer votre fichier et que vous le rouvrez, en général vous ne pouvez plus faire `Ctrl + Z`. Pour les malins qui utilisent un traitement de texte capable de le faire malgré tout : éteignez brusquement votre ordinateur et rallumez-le... Ensuite on en reparle.
+Et bien parce qu'une fois que vous fermez votre fichier et que vous le rouvrez, en général vous ne pouvez plus faire `Ctrl + Z`. Pour les malins qui utilisent un traitement de texte capable de le faire malgré tout : éteignez brusquement votre ordinateur et rallumez-le... Ensuite on en reparle.
 
 Bref c'est dommage. 
 
