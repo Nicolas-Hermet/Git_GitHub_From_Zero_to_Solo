@@ -18,14 +18,14 @@ Voyons tout de suite comment cela fonctionne :
 Voilà à quoi elle ressemble.
 
 1. Ce cadre vous permettra de 
-   1. revenir à la page d'accueil
-   2. Effectuer une recherche dans votre profil ou dans l'ensemble de la plateforme GitHub
-   3. Afficher l'ensemble des pull request (on y reviendra) vous concernant.
-   4. Afficher l'ensemble des issues (on y reviendra) vous concernant.
-   5. Marketplace et Explore servent à parcourir les applis que vous pouvez connecter à votre compte GitHub ainsi que les projets open source en vogue du moment.
-   6. Une cloche vous indiquant les notifications pertinentes vous concernant.
-   7. le "+" pour créer un nouveau repository, une équipe etc...
-   8. Votre photo de profil dans laquelle vous pourrez accéder à vos paramètres, et bien d'autres choses encore.
+   - revenir à la page d'accueil
+   - Effectuer une recherche dans votre profil ou dans l'ensemble de la plateforme GitHub
+   - Afficher l'ensemble des pull request (on y reviendra) vous concernant.
+   - Afficher l'ensemble des issues (on y reviendra) vous concernant.
+   - Marketplace et Explore servent à parcourir les applis que vous pouvez connecter à votre compte GitHub ainsi que les projets open source en vogue du moment.
+   - Une cloche vous indiquant les notifications pertinentes vous concernant.
+   - le "+" pour créer un nouveau repository, une équipe etc...
+   - Votre photo de profil dans laquelle vous pourrez accéder à vos paramètres, et bien d'autres choses encore.
 2. Ce cadre permet de voir les repositories sur lesquels vous avez récemment travaillés, ainsi que ceux de votre organisation.
 3. Le cadre 3 représente un fil d'actu de ce qu'il se passe dans votre réseau.
 4. Enfin ici, en fonction de vos activités, GitHub vous propose des projets que vous pourriez vouloir consulter.
