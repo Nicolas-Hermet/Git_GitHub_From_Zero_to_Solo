@@ -460,3 +460,23 @@ De quoi s'agit-il ? Quelle utilité ?
 oui même dans le cas d'un clonage : code review
 
 branches protégées
+
+
+
+### Comment est agencé ce repository ?
+
+#### Les divers dossiers
+
+#### Le dossier SandBox ??
+
+#### Le dossier "Première contribution" ??
+
+
+
+### Exercice : 
+
+Faites votre première contribution.
+
+
+
+Utiliser le Sandbox pour faire n'importe quoi... Attention : d'autres gens font peut-être pareil que vous.
