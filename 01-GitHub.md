@@ -4,7 +4,7 @@
 
 ### Aperçu rapide des différentes pages
 
-Bienvenue dans GitHub. D'abord qu'est ce que GitHub ? C'est ce que l'on appel un **dépôt distant** pour Git. Mais cela peut aussi être un moyen de sauvegarde de vos dossiers. L'avantage c'est que tous ces dossiers sont versionnés avec Git. 
+Bienvenue dans GitHub. D'abord qu'est ce que GitHub ? C'est ce que l'on appelle un **dépôt distant** pour Git. Mais cela peut aussi être un moyen de sauvegarde de vos dossiers. L'avantage c'est que tous ces dossiers sont versionnés avec Git. 
 Ainsi vous pourriez très bien vous passez d'avoir le moindre dossier sur votre ordinateur. Mais ce ne serait pas très pratique.
 
 
@@ -18,15 +18,15 @@ Voyons tout de suite comment cela fonctionne :
 Voilà à quoi elle ressemble.
 
 1. Ce cadre vous permettra de 
-   - revenir à la page d'accueil
+   - Revenir à la page d'accueil
    - Effectuer une recherche dans votre profil ou dans l'ensemble de la plateforme GitHub
    - Afficher l'ensemble des pull request (on y reviendra) vous concernant.
    - Afficher l'ensemble des issues (on y reviendra) vous concernant.
    - Marketplace et Explore servent à parcourir les applis que vous pouvez connecter à votre compte GitHub ainsi que les projets open source en vogue du moment.
    - Une cloche vous indiquant les notifications pertinentes vous concernant.
-   - le "+" pour créer un nouveau repository, une équipe etc...
+   - Le "+" pour créer un nouveau repository, une équipe etc...
    - Votre photo de profil dans laquelle vous pourrez accéder à vos paramètres, et bien d'autres choses encore.
-2. Ce cadre permet de voir les repositories sur lesquels vous avez récemment travaillés, ainsi que ceux de votre organisation.
+2. Ce cadre permet de voir les repositories sur lesquels vous avez récemment travaillé, ainsi que ceux de votre organisation.
 3. Le cadre 3 représente un fil d'actu de ce qu'il se passe dans votre réseau.
 4. Enfin ici, en fonction de vos activités, GitHub vous propose des projets que vous pourriez vouloir consulter.
 
@@ -76,11 +76,11 @@ Il va vous falloir ici remplir plusieurs choses.
 
 1. **Propriétaire**
 
-   Déjà : commencez par dire qui est le propriétaire (l'"**Owner**") du repository. Vous même, comme c'est mon cas ici, ou l'organisation à laquelle vous faite partie si c'est le cas.
+   Déjà : commencez par dire qui est le propriétaire ("**Owner**") du repository. Vous même, comme c'est mon cas ici, ou l'organisation à laquelle vous appartenez.
 
 2. **Titre**
 
-   Intitulé Repository Name, il ne doit comporter aucun espace, ni aucun caractères spéciaux et être unique parmi tous vos repositories.
+   Intitulé Repository Name, il ne doit comporter aucun espace, ni aucun caractère spécial et être unique parmi tous vos repositories.
 
 3. **Description**
 
@@ -94,7 +94,7 @@ Il va vous falloir ici remplir plusieurs choses.
 
    Vous devez choisir ici, si vous souhaitez initialiser votre repertoire avec un fichier qui sera nommé Readme.md.
 
-   Par défaut, GitHub (et la majeure partie de ses concurrents) arrive à repérer les fichiers Readme.md qui seraient situés à la racine de votre répertoire. C'est aussi une pratique courante dans pas mal de framework, de créer automatiquement ce fichier Readme.md à la racine. Ce fichier, écrit en markdown est alors directement interpréter par GitHub, qui l'affichera en première page de votre repository. Ainsi lorsque d'autres personnes iront voir votre projet, ils tomberont par défaut directement sur cette page.
+   Par défaut, GitHub (et la majeure partie de ses concurrents) arrive à repérer les fichiers Readme.md qui seraient situés à la racine de votre répertoire. C'est aussi une pratique courante dans pas mal de framework, de créer automatiquement ce fichier Readme.md à la racine. Ce fichier, écrit en markdown est alors directement interprété par GitHub, qui l'affichera en première page de votre repository. Ainsi lorsque d'autres personnes iront voir votre projet, ils tomberont par défaut directement sur cette page.
 
    
 
@@ -102,9 +102,9 @@ Il va vous falloir ici remplir plusieurs choses.
 
 6. **.gitignore et License ?**
 
-   C'est là que cela devient intéressant. Laisser la partie License à "none" pour le moment. Vous êtes simplement en train de dire qu'aucune license ne protège le contenu de votre repository. En gros tout le monde aura donc le droit de le copier, l'utiliser, voir carrément commercialiser ce qui se trouvera dans votre répertoire. Pas très grave pour le moment : on s'entraine à utiliser GitHub. Je doute que quelqu'un fasse des millions de dollars de bénéfices avec ça.
+   C'est là que cela devient intéressant. Laisser la partie License à "none" pour le moment. Vous êtes simplement en train de dire qu'aucune license ne protège le contenu de votre repository. En gros tout le monde aura donc le droit de le copier, l'utiliser, voir carrément commercialiser ce qui se trouvera dans votre répertoire. Pas très grave pour le moment : on s'entraîne à utiliser GitHub. Je doute que quelqu'un fasse des millions de dollars de bénéfices avec ça.
 
-   Je traite la partie .gitignore dans les paragraphes suivant. Laissez là sur "none" également pour le moment. Mais pour faire simple, ce fichier, systématiquement appelé, `.gitignore` est un fichier texte, listant l'intégralité des fichiers que vous ne voulez pas versionné, ni voir apparaître sur GitHub. Typiquement un fichier de configuration, vos clefs d'API secrètes, éventuellement des fichiers contenant vos mot de passes en clair (pas bien)... 
+   Je traite la partie .gitignore dans les paragraphes suivant. Laissez l'option sur "none" également pour le moment. Mais pour faire simple, ce fichier, systématiquement appelé, `.gitignore` est un fichier texte, listant l'intégralité des fichiers que vous ne voulez pas versionner, ni voir apparaître sur GitHub. Typiquement un fichier de configuration, vos clefs d'API secrètes, éventuellement des fichiers contenant vos mot de passes en clair (pas bien)... 
 
 
 
@@ -124,11 +124,11 @@ Ici on vous propose plusieurs choses :
 
 3. **Push an existing repository**
 
-   Si vous regardez bien, la proposition précédente inclue celle là.
+   Si vous regardez bien, la proposition précédente inclut celle là.
 
 4. **Import code from another repository**
 
-   Uniquement si vous souhaitez faire un import d'un autre repository existant. Je n'ai pas encore eu de cas de figure où je trouvais cela utile... Je complèterais ce tutoriel si un jour je trouve.
+   Uniquement si vous souhaitez faire un import d'un autre repository existant. Je n'ai pas encore eu de cas de figure où je trouvais cela utile... Je complèterais ce tutoriel si un jour je trouve le temps.
 
 
 
@@ -140,13 +140,13 @@ Pour le moment nous n'allons donc rien faire... Vous pourrez toujours revenir à
 
 Bien. Assez perdu de temps sur internet. 
 
-Sur votre ordinateur : ouvrez créez un dossier, n'importe lequel. Nommez le avec le même nom que votre repository GitHub que vous venez de créer. C'est conseil pour pouvoir s'y retrouver. Bien sûr, vous n'y êtes pas obligé.
+Sur votre ordinateur : ouvrez créez un dossier, n'importe lequel. Nommez le avec le même nom que le repository GitHub que vous venez de créer. C'est conseillé pour pouvoir s'y retrouver. Bien sûr, vous n'y êtes pas obligé.
 
 Puis ouvrez git bash : ![02github_07](/pictures/02github_07.png)
 
 
 
-Placez vous à l'aide des commandes `cd` dans le répertoire que vous venez de créer. 
+Placez vous à l'aide de la commande `cd` dans le répertoire que vous venez de créer. 
 
 Puis, exécutez la commande suivante : 
 
@@ -158,7 +158,7 @@ Cela initialisera git. En substance, vous êtes en train de dire à git : ok à 
 
 Votre terminal vous répond avec le message ``Initialized empty Git repository in D:/VotreCheminDAcces/.git/`
 
-Commençons par donc créer ce fameux Readme.md, pourquoi pas ? Pour les fans de l'invite de commande vous pouvez exécuter : 
+Commençons donc par créer ce fameux Readme.md, pourquoi pas ? Pour les fans de l'invite de commande vous pouvez exécuter : 
 
 ```shell
 touch Readme.md
@@ -201,7 +201,7 @@ git add Readme.md
 
 Normalement : rien ne se passe dans votre terminal. C'est normal.
 
-Mais refaite la commande `git status` et vous verrez que le message de git change : 
+Mais refaites la commande `git status` et vous verrez que le message de git change : 
 
 ```shell
 Changes to be committed:
@@ -291,7 +291,7 @@ Dites lui que oui !
 git add Readme.md
 ```
 
-Puis dites lui que vous voulez commit et donner le message que vous souhaitez. Pour moi ce sera donc : 
+Puis dites lui que vous voulez commit et donnez le message que vous souhaitez. Pour moi ce sera donc : 
 
 ```shell
 git commit -m "Ajout des premières lignes"
@@ -354,7 +354,7 @@ Pour le moment je vous fais faire cela de cette manière par simplicité. Mais d
 
 Comme vous vous en doutez, s'il existe une commande pour envoyer (`push`) votre travail sur GitHub, il en existe une, `pull` pour récupérer votre travail depuis GitHub.
 
-Seulement, depuis votre ordinateur, il faut être situé dans un dossier relier à votre repository GitHub. C'est ce qu'on a fait lorsqu'on a exécuté la commande : 
+Seulement, depuis votre ordinateur, il faut être situé dans un dossier relié à votre repository GitHub. C'est ce qu'on a fait lorsqu'on a exécuté la commande : 
 
 ```shell
 git remote add origin git@github.com:Nicolas-Hermet/rep_test_Git_GitHub.git
@@ -380,7 +380,7 @@ Dans GitHub, cliquez sur le bouton suivant :
 
 ![02github_10](/pictures/02github_10.png)
 
-Cela vous ouvrira la fenêtre suivante que vous pouvez remplir comme moi : 
+Cela ouvrira la fenêtre suivante que vous pourrez remplir comme moi : 
 
 ![02github_11](/pictures/02github_11.png)
 
@@ -388,11 +388,11 @@ En bas de cette page vous allez retrouver un formulaire relativement familier :
 
 ![02github_12](/pictures/02github_12.png)
 
-Le premier champ sera le message de commit que vous avez l'habitude de donner lorsque vous faite `git commit -m "C'est ce message là !"`
+Le premier champ sera le message de commit que vous avez l'habitude de donner lorsque vous faites `git commit -m "C'est ce message là !"`
 
 Le deuxième champ, optionnel, est là pour écrire plus de texte si vous en avez besoin. Bien sûr on pourrait faire ça aussi en invite de commande en faisant simplement `git commit` sans le `-m 'message'` mais je ne voyais pas l'intérêt de vous le dire avant.
 
-Laissez coché la case **commit directly to the master branche** et décoché la case **Create a new branch...**. 
+Laissez cochée la case **commit directly to the master branche** et décochée la case **Create a new branch...**. 
 
 Puis cliquez sur **Commit New File**.
 
@@ -400,7 +400,7 @@ Puis cliquez sur **Commit New File**.
 
 Vous venez de faire votre premier commit directement sur le web !!! Félicitations.
 
-Vous retombez normalement sur la page de votre repository. Vous pouvez constater que votre deuxième fichier est bien ajoutée ! Son contenu est bien celui que vous aviez prévu.
+Vous retombez normalement sur la page de votre repository. Vous pouvez constater que votre deuxième fichier est bien ajouté ! Son contenu est bien celui que vous aviez prévu.
 
 
 

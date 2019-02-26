@@ -1,10 +1,10 @@
-# Git et GitHub de Zéros à Solo
+# Git et GitHub de Zéro à Solo
 
-Vous venez de débarquer dans le monde merveilleux du versionnage de fichiers. Et là : c'est le drâme. Vous vous en sortez bien mieux avec des vieux copiés-collés et des fichiers en pagaille nommé v2 ; v2_corrigé ; v3_final ; v3_final_2019-01-12 etc...
+Vous venez de débarquer dans le monde merveilleux du versionnage de fichiers. Et là : c'est le drâme. Vous vous en sortez bien mieux avec des copiés-collés et des fichiers en pagaille nommés v2 ; v2_corrigé ; v3_final ; v3_final_2019-01-12 etc...
 
 ## Bienvenue <a id="Bienvenu"></a>
 
-Ici on va partir de zéro. Oui de zéro. Il suffira de continuer à lire tranquillement, et de faire les exercices demandés. Si vous n'êtes pas complètement manche, ou que vous avez plus de deux neurones qui clapotes dans le fond, tout devrait bien se passer.
+Ici on va partir de zéro. Oui de zéro. Il suffira de continuer à lire tranquillement, et de faire les exercices demandés. Si vous n'êtes pas complètement manche, ou que vous avez plus de deux neurones qui clapotent dans le fond, tout devrait bien se passer.
 
 
 
@@ -55,13 +55,13 @@ où ![01whygit_03](/pictures/01whygit_03.png) représente un retour en arrière.
 
 Très bien... mais comment revenez vous au point de repère ?
 
-Et bien vous ne pouvez plus, sinon comment savoir si vous souhaitez revenir au point de repère, ou encore plus loin dans le temps ?
+Et bien vous ne pouvez plus, votre éditeur de texte ne peut pas savoir si vous souhaitez revenir au point de repère, ou encore plus loin dans le temps.
 
 
 
 #### <a id="CasGit" style="text-decoration:none;color:#000">Le cas avec git</a>
 
-Cette fois-ci, utilisons git. Au lieu de simple points, nous allons leurs donner des noms juste pour nous repérer entre nous.
+Cette fois-ci, utilisons git. Au lieu de simples points, nous allons leurs donner des noms juste pour nous repérer entre nous.
 
 - Ø : représente un état quelconque et sauvegardé de votre fichier.
 - $V_{1}$ : représente un **commit** de votre fichier. Imaginez un commit comme une sauvegarde qui aurait un nom.
@@ -88,7 +88,7 @@ Je ne parle même pas de la collaboration à plusieurs ! Tellement plus simple.
 
 Les amis de chez NDP Software ont pondu un outil que je trouve personnellement génial pour comprendre le fonctionnement de git, et ainsi se repérer dans la multitude de commandes en ligne : 
 
-<span style="text-align: centered;"><a href="http://ndpsoftware.com/git-cheatsheet.html" target="_blank">![01whygit_05](/pictures/01whygit_06.png)</a> </span> (lien cliquable)
+<span style="text-align: centered;"><a href="http://ndpsoftware.com/git-cheatsheet.html" target="_blank">![01whygit_05](/pictures/01whygit_06.png)</a> </span> (image cliquable)
 
 
 
@@ -124,7 +124,7 @@ Votre collègue est-il nul ?
 
 
 
-Concrètement vous aller modifier ce fichier qui se trouve dans votre espace de travail. Imaginons donc que vous voulez le modifiez en ceci : 
+Concrètement vous allez modifier ce fichier qui se trouve dans votre espace de travail. Imaginons donc que vous voulez le modifier en ceci : 
 
 ```tex
 Ceci est le texte à partir du quel on va partir. Prenez le comme acquis, comme si un collègue vous l'avait donné. Il y a moins de lignes.
@@ -219,7 +219,7 @@ git push <nom du dépôt distant> <Nom de votre branche>
 où : 
 
 - nom du dépôt distant : est le nom du serveur sur lequel vous envoyez vos modifications. Si vous n'en avez qu'un, il s'appellera `origin` par défaut. Mais vous pouvez le changer, où en avoir plusieurs.
-- Nom de votre branche : est le nom de la branche sur laquelle vous avez travaillé. Je reviendrais plus tard sur cette notion, mais [les graphiques précédents](#CasGit) vous donnent une indication de dont il s'agit.
+- Nom de votre branche : est le nom de la branche sur laquelle vous avez travaillé. Je reviendrais plus tard sur cette notion, mais [les graphiques précédents](#CasGit) vous donnent une indication de ce dont il s'agit.
 
 
 
