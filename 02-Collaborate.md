@@ -437,13 +437,17 @@ Une fois de temps à autre, avant chaque release : vous faites un merge sur la b
 
 #### Qu'est-ce qu'un clone ?
 
+La copie intégrale du repo (dans la branche spécifiée) avec lien direct en push et pull.
+
+Seulement il faut avoir les droits d'accès à ce repo : être collaborateur dessus ou faire parti de l'organisation ou de l'équipe qui maintient le code.
+
 #### Qu'est ce qu'un Fork ?
 
-#### La différence entre les deux
+La copie du repo sur votre compte gihub. Vous devenez le propriétaire de la copie et pouvez faire ce que vous voulez avec.
 
-#### Pourquoi cela ne fonctionne pas pareil pour mes propres repositories ?
+Ensuite pour envoyer une modification sur le repo d'origine il faudra faire une pull request.
 
-#### Cas particulier de la collaboration officielle
+
 
 ### Cas du clonage
 

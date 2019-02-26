@@ -1,4 +1,4 @@
-# Git et GitHub de Noob à God
+# Git et GitHub de Zéros à Solo
 
 Vous venez de débarquer dans le monde merveilleux du versionnage de fichiers. Et là : c'est le drâme. Vous vous en sortez bien mieux avec des vieux copiés-collés et des fichiers en pagaille nommé v2 ; v2_corrigé ; v3_final ; v3_final_2019-01-12 etc...
 
