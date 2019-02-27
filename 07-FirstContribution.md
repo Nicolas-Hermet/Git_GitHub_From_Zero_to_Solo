@@ -253,8 +253,11 @@ Félicitations !! :champagne::tada:
 
 ## Exercice non guidé :<a id="ExerciceNG"></a> 
 
-1. Contribuez à ce repository.
+1. Contribuez à [ce repository](https://github.com/firstcontributions/first-contributions) comme indiqué par l'auteur de celui-ci.
+
 2. Faites une contribution, dans le dossier SandBox. Attention : aucun code ne sera autorisé. Seulement du MarkDown, HTML5, Text ou éventuellement du LaTeX. Mais n'oubliez pas que certaines personnes peuvent faire pareil que vous au même moment. Faites donc attention à Jean-Claude ou Jean-Claudine !
+
+En cas de doute sur vos commandes git. Vous pouvez utiliser ce dossier pour faire vos tests. Il est là pour ça !
 
 
 ------
