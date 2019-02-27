@@ -1,6 +1,40 @@
 # GitHub - Son interface et son fonctionnement
 
-## Aperçu rapide des différentes pages
+
+<div id="toc_container" style="background-color: #f7faff;">
+<div id="toc-wrapper" style="margin-left: auto;margin-right: auto; width: 40%;">
+<p class="toc_title"><strong>Contents</strong></p>
+<p><a href="Readme.md">Retour au sommaire</a></p>
+<ol class="toc_list" start="1">
+  <li><a href="03-Git.md">Git</a></li>
+  <li><a href="04-GitHub.md">GitHub - Son interface et son fonctionnement</a></li>
+  <ol>
+    <li><a href="04-GitHub.md/#Apercu">Aperçu rapide des différentes pages</a></li>
+      <ol>
+        <li><a href="04-GitHub.md/#Accueil">Page d'accueil</a></li>
+        <li><a href="04-GitHub.md/#Overview">Votre profil - Overview</a></li>
+      </ol>
+    <li><a href="04-GitHub.md/#VosRepos">Vos repositories</a></li>  
+      <ol>
+        <li><a href="04-GitHub.md/#PaPPremierRepo">Créer votre premier repository - pas à pas</a></li>
+        <ol>
+          <li><a href="04-GitHub.md/#Créer votre premier repository - pas à pas">Créez votre premier répertoire de travail avec git</a></li>
+          <li><a href="04-GitHub.md/#RelierGitHub">Relier votre espace de travail à GitHub</a></li>
+          <li><a href="04-GitHub.md/#ModifFichier">Modifiez votre fichier</a></li>
+          <li><a href="04-GitHub.md/#PointImportant">Points importants</a></li>
+        </ol>  
+        <li><a href="04-GitHub.md/#Exercice">Exercice</a></li>  
+      </ol>  
+  </ol>
+  <li><a href="05-GitHub.md">Git Avancé</a></li>
+</ol>
+<p>...</p>
+</div>
+</div>
+
+
+
+## Aperçu rapide des différentes pages <a id="Apercu"></a>
 
 Bienvenue dans GitHub. D'abord qu'est ce que GitHub ? C'est ce que l'on appelle un **dépôt distant** pour Git. Mais cela peut aussi être un moyen de sauvegarde de vos dossiers. L'avantage c'est que tous ces dossiers sont versionnés avec Git. 
 Ainsi vous pourriez très bien vous passez d'avoir le moindre dossier sur votre ordinateur. Mais ce ne serait pas très pratique.
@@ -9,7 +43,7 @@ Ainsi vous pourriez très bien vous passez d'avoir le moindre dossier sur votre 
 
 Voyons tout de suite comment cela fonctionne : 
 
-### Page d'accueil
+### Page d'accueil <a id="Accueil"></a>
 
 ![02github_01](/pictures/02github_01.png)
 
@@ -28,7 +62,7 @@ Voilà à quoi elle ressemble.
 3. Le cadre 3 représente un fil d'actu de ce qu'il se passe dans votre réseau.
 4. Enfin ici, en fonction de vos activités, GitHub vous propose des projets que vous pourriez vouloir consulter.
 
-### Votre profil - Overview
+### Votre profil - Overview <a id="Overview"></a>
 
 Cliquez sur votre photo de profil, puis sur "Your Profile" :
 
@@ -52,9 +86,9 @@ Passons à ce qui nous intéresse le plus : vos répertoires.
 
 Cliquez sur l'onglet "**Repositories**", par le biais que vous souhaitez.
 
-## Vos repositories
+## Vos repositories <a id="VosRepos"></a>
 
-### Créer votre premier repository - pas à pas
+### Créer votre premier repository - pas à pas <a id="PaPPremierRepo"></a>
 
 Normalement, en arrivant sur cette page, vous n'avez aucun répertoire versionné sur votre machine, ni aucun repository sur GitHub. Si c'est pourtant le cas, vous pouvez vous affranchir de cette partie.
 
@@ -134,7 +168,7 @@ Pour le moment nous n'allons donc rien faire... Vous pourrez toujours revenir à
 
 
 
-##### Créez votre premier répertoire de travail avec git
+##### Créez votre premier répertoire de travail avec git <a id="PremierRepo"></a>
 
 Bien. Assez perdu de temps sur internet. 
 
@@ -227,7 +261,7 @@ Bon mais c'est bien gentil tout ça... mais alors ? Quand est-ce qu'on met ça s
 
 Maintenant : 
 
-##### Relier votre espace de travail à GitHub
+##### Relier votre espace de travail à GitHub <a id="RelierGitHub"></a>
 
 Vous vous souvenez des différentes options que vous proposait GitHub lorsque vous avez créé votre repository ?
 
@@ -254,7 +288,7 @@ Maintenant, retournez sur la page GitHub de votre repository, et rafraichissez l
 
 
 
-##### Modifiez votre fichier
+##### Modifiez votre fichier <a id="ModifFichier"></a>
 
 Tout à l'air d'être bon ! Maintenant on va pouvoir modifier le fichier. Sur votre ordinateur, ouvrez le fichier Readme.md avec l'éditeur de texte de votre choix.
 
@@ -338,7 +372,7 @@ Quelques tuyaux :
 
 
 
-##### Points importants : 
+##### Points importants : <a id="PointImportant"></a>
 
 1. La commande push
 
@@ -370,7 +404,7 @@ Encore une fois on indique `origin` et `master` mais on verra plus tard la gesti
 
 
 
-### Exercice : 
+### Exercice : <a id="Exercice"></a>
 
 Je vous propose donc l'exercice suivant.
 

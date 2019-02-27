@@ -1,6 +1,37 @@
 # Git Avancé
 
-## Introduction
+
+<div id="toc_container" style="background-color: #f7faff;">
+<div id="toc-wrapper" style="margin-left: auto;margin-right: auto; width: 40%;">
+<p class="toc_title"><strong>Contents</strong></p>
+<p><a href="Readme.md">Retour au sommaire</a></p>
+<ol class="toc_list" start="1">
+  <li><a href="04-GitHub.md">GitHub - Son interface et son fonctionnement</a></li>
+  <li><a href="05-GitHub.md">Git Avancé</a></li>
+  <ol>
+    <li><a href="05-GitHub.md/#intro">Introduction</a></li>
+    <li><a href="05-GitHub.md/#commandes">Commandes Git Avancées</a></li>
+    <ol>
+        <li><a href="05-GitHub.md/#status">git status</a></li>
+        <li><a href="05-GitHub.md/#log">git log</a></li>
+        <li><a href="05-GitHub.md/#diff">git diff</a></li>
+        <li><a href="05-GitHub.md/#checkout">git checkout</a></li>
+        <li><a href="05-GitHub.md/#revert">git revert</a></li>
+        <li><a href="05-GitHub.md/#blame">git blame</a></li>
+        <li><a href="05-GitHub.md/#branch">git branch</a></li>
+        <li><a href="05-GitHub.md/#merge">git merge</a></li>
+        <li><a href="05-GitHub.md/#warning">Commande Git à NE JAMAIS FAIRE !</a></li>
+    </ol>
+  </ol>
+  <li><a href="06-Workflow.md">Workflow - travailler en équipe</a></li>
+</ol>
+<p>...</p>
+</div>
+</div>
+
+
+
+## Introduction <a id="intro"></a>
 
 Collaborer - Vos premiers pas sur un projet
 
@@ -14,9 +45,9 @@ Pour commencer nous allons aborder quelques commandes avancées de Git. Ensuite 
 
 
 
-## Commandes Git Avancées
+## Commandes Git Avancées <a id="commandes"></a>
 
-### git Status
+### git status <a id="status"></a>
 
 Celle-ci n'est pas vraiment une commande avancée mais possède à mon sens une très grande importance.
 
@@ -28,7 +59,7 @@ Adoptez le réflexe : `git status` !!
 
 
 
-### git log
+### git log <a id="log"></a>
 
 Exécutez `git log` dans votre terminal. Vous y verrez l'historique de tous les commits de la branche actuelle.
 
@@ -49,7 +80,7 @@ Ici, le SHA est donc `2e14a826dbd76f31ff6e5664e29b77c9599a7cc1`.
 
 
 
-### git diff
+### git diff <a id="diff"></a>
 
 Ahhh voilà une fonctionnalité attendue !
 
@@ -63,7 +94,7 @@ vous pouvez donner des options à cette commande, comme le numéro de **SHA** ou
 
 
 
-### git checkout 
+### git checkout <a id="checkout"></a>
 
 Je viens de mentionner votre espace de travail *dans sa version actuelle*. Cela veut dire qu'à tout moment vous pouvez changer son état, à condition que tous les fichiers en cours de modifications soient placés dans l'index (via `git add`).
 
@@ -101,7 +132,7 @@ Normalement cela devrait effacer les modifications que vous aviez faites.
 
 
 
-### git revert
+### git revert <a id="revert"></a>
 
 Vous l'aurez compris, même si c'est possible, il est très difficile (ou risqué) d'altérer le passé. Mais combien de fois, vous êtes vous dit : "Ahh... j'aurais aimé que cela ne soit jamais arrivé" ? Et bien ne le dites plus : passez à l'acte.
 
@@ -124,7 +155,7 @@ Essayez avec cet exercice :
 
 
 
-### git blame
+### git blame <a id="blame"></a>
 
 ```shell
 git blame <Nom du fichier>
@@ -136,7 +167,7 @@ C'est souvent une commande que l'on trouve en extension dans de nombreux éditeu
 
 
 
-### git branch
+### git branch <a id="branch"></a>
 
 On en arrive à la partie la plus importante : les branches. Une branche est une ligne différente de l'Histoire de votre code.
 
@@ -178,7 +209,7 @@ Notez également que `git status` vous indiquera dans quelle branche vous vous t
 
 
 
-### git merge
+### git merge <a id="merge"></a>
 
 On comprend bien que créer une ligne temporelle différente n'est pas forcément très intéressant en soi. A moins d'avoir plusieurs versions différentes de son code. Pourquoi pas.
 
@@ -366,7 +397,7 @@ Ayez le reflexe : `git status`
 
 
 
-### :warning: Commande Git à NE JAMAIS FAIRE ! :warning:
+### :warning: Commande Git à NE JAMAIS FAIRE ! :warning:<a id="Warning"></a>
 
 A moins bien sûr de savoir exactement ce que vous faites.
 

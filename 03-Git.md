@@ -1,10 +1,40 @@
 # Git
 
+
+<div id="toc_container" style="background-color: #f7faff;">
+<div id="toc-wrapper" style="margin-left: auto;margin-right: auto; width: 40%;">
+<p class="toc_title"><strong>Contents</strong></p>
+<p><a href="Readme.md">Retour au sommaire</a></p>
+<ol class="toc_list" start="1">
+  <li><a href="02-Installation.md">Installer cette stack</a></li>
+  <li><a href="03-Git.md">Git</a></li>
+  <ol>
+    <li><a href="03-Git.md/#pourquoigit">Pourquoi on s'emm**** avec git ?</a></li>
+      <ol>
+        <li><a href="03-Git.md/#backtothefutur">Le cas de retour vers le futur</a></li>
+        <li><a href="03-Git.md/#CasGit">Le cas avec git</a></li>
+      </ol>
+    <li><a href="03-Git.md/#FonctionnementGit">Le fonctionnement de Git</a></li>
+      <ol>
+        <li><a href="03-Git.md/#GitSpaces">Les différents espaces de Git</a></li>
+        <li><a href="03-Git.md/#EspaceTravail">Espace de travail</a></li>
+        <li><a href="03-Git.md/#Index">Index</a></li>
+        <li><a href="03-Git.md/#DepotLocal">Dépôt Local</a></li>
+        <li><a href="03-Git.md/#DepotDistant">Dépôt Distant</a></li>
+      </ol>  
+  </ol>
+  <li><a href="04-GitHub.md">GitHub - Son interface et son fonctionnement</a></li>
+</ol>
+<p>...</p>
+</div>
+</div>
+
+
 Oui je l'ai dit : on part vraiment de zéro.
 
 De base lorsque vous mettez à jour un fichier (mettons un document word ou un readme.md), vous enregistrez régulièrement. Du moins j'espère. En tout cas, dans pas mal de cas, votre traitement de texte sauvegarde tout ce que vous faites, de manière à pouvoir utiliser le fameux `Ctrl + Z` lorsque vous souhaitez revenir en arrière. Génial non ?
 
-## Alors pourquoi on s'emm\*\*\*\* avec git ?
+## Alors pourquoi on s'emm\*\*\*\* avec git ? <a id="pourquoigit"></a>
 
 Et bien parce qu'une fois que vous fermez votre fichier et que vous le rouvrez, en général vous ne pouvez plus faire `Ctrl + Z`. Pour les malins qui utilisent un traitement de texte capable de le faire malgré tout : éteignez brusquement votre ordinateur et rallumez-le... Ensuite on en reparle.
 
@@ -12,7 +42,7 @@ Bref c'est dommage.
 
 Un autre cas où le `Ctrl + Z` n'est plus si pratique est le suivant.
 
-### Le cas de retour vers le futur
+### Le cas de retour vers le futur <a id="backtothefutur"></a>
 
 Imaginons le cas suivant. Vous modifiez votre fichier au fur et à mesure, et vous le sauvegardez régulièrement. Chaque point ci-dessous représente une sauvegarde de votre fichier (soit par vous, soit par votre éditeur de texte). Les traits reliant les points signifient que vous modifiez le fichier : 
 
@@ -57,9 +87,9 @@ Je ne parle même pas de la collaboration à plusieurs ! Tellement plus simple.
 
 
 
-## Fonctionnement de Git
+## Fonctionnement de Git <a id="FonctionnementGit"></a>
 
-### Les différents espaces de git
+### Les différents espaces de git <a id="GitSpaces"></a>
 
 Les amis de chez NDP Software ont pondu un outil que je trouve personnellement génial pour comprendre le fonctionnement de git, et ainsi se repérer dans la multitude de commandes en ligne : 
 
@@ -77,13 +107,13 @@ On y retrouve les éléments suivants :
 
 
 
-### Espace de travail :
+### Espace de travail :<a id="EspaceTravail"></a>
 
 Ici, pas de surprises, vous savez comment cela fonctionne : vous le faites tous les jours.
 
 
 
-### Index
+### Index<a id="Index"></a>
 
 En revanche, ici, cela devient plus intéressant. Imaginons le fichier `VotreFichier.txt` suivant : 
 
@@ -150,7 +180,7 @@ Concrètement ici, git nous dit qu'il a repéré qu'un fichier avait changé, ma
 
 
 
-### Dépôt local
+### Dépôt local<a id="DepotLocal"></a>
 
 A partir de cet instant on peut exécuter la commande de commit.
 
@@ -179,7 +209,7 @@ En réalité, dans votre éditeur de texte, et tant que vous ne fermez pas votre
 
 
 
-### Dépôt distant
+### Dépôt distant<a id="DepotDistant"></a>
 
 Vous êtes maintenant prêt à partager vos modifications avec vos collègues ! Car pour le moment, tout ce que vous avez fait reste uniquement sur votre machine. C'est à ça que peut servir un dépôt distant. GitHub en est un, mais cela peut être le serveur de données de votre entreprise, bitbucket, gitlab ou bien d'autres.
 

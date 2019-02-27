@@ -1,8 +1,32 @@
 # Votre première collaboration en ligne
 
-## Quelques notions rapide
 
-### Clone 
+<div id="toc_container" style="background-color: #f7faff;">
+<div id="toc-wrapper" style="margin-left: auto;margin-right: auto; width: 40%;">
+<p class="toc_title"><strong>Contents</strong></p>
+<p><a href="Readme.md">Retour au sommaire</a></p>
+<ol class="toc_list" start="1">
+  <li><a href="06-Workflow.md">Workflow - travailler en équipe</a></li>
+  <li><a href="07-FirstContribution.md">Votre première collaboration en ligne</a></li>
+  <ol>
+    <li><a href="07-FirstContribution.md/#notions">Quelques notions rapide</a></li>
+    <ol>
+    <li><a href="07-FirstContribution.md/#Clone">Clone</a></li>
+    <li><a href="07-FirstContribution.md/#Fork">Fork</a></li>
+    <li><a href="07-FirstContribution.md/#Pull">Pull Request</a></li>
+    </ol>
+    <li><a href="07-FirstContribution.md/#ExerciceG">Exercice Guidé</a></li>
+    <li><a href="07-FirstContribution.md/#ExerciceNG">Exercice Non Guidé</a></li>
+  </ol>
+  <li><a href="08-AdditionnalTricks.md">Trucs et astuces supplémentaires</a></li>
+</ol>
+</div>
+</div>
+
+
+## Quelques notions rapide <a id="notions"></a>
+
+### Clone <a id="Clone"></a>
 
 1. **Qu'est ce que c'est ?**
 
@@ -37,7 +61,7 @@ Et bien maintenant vous pouvez travailler sur votre ordinateur comme dans le cha
 
 
 
-### Qu'est ce qu'un Fork ?
+### Fork ? <a id="Fork"></a>
 
 1. **Definition**
 
@@ -67,7 +91,7 @@ Pour envoyer une modification sur le repo d'origine il faudra faire une pull req
 
 
 
-### Qu'est-ce qu'une Pull Request ?
+### Pull Request <a id="Pull"></a>
 
 1. **Définition**
 
