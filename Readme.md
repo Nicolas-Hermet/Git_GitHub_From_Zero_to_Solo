@@ -49,7 +49,7 @@ Ou une autre du sommaire :
 
 <div id="toc_container" style="background-color: #f7faff;">
 <div id="toc-wrapper" style="display: block; margin-left: auto;margin-right: auto; width: 60%;">
-<p class="toc_title"><strong>Contents</strong></p>
+<p class="toc_title"><strong>Sommaire</strong></p>
 <ol class="toc_list">
   <li><a href="01-Stack.md">Quelle stack utiliserons nous ?</a></li>
   <li><a href="02-Installation.md">Installer cette stack</a></li>
