@@ -1,4 +1,4 @@
-### D'accord, mais quelle stack ? 
+# Quelle stack utiliserons nous ? 
 
 La stack n'est pas compliquée : 
 

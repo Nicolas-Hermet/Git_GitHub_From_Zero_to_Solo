@@ -1,4 +1,4 @@
-## Le bon Workflow
+## Workflow - travailler en équipe
 
 ### Qu'est ce qu'un workflow
 

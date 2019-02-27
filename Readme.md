@@ -47,17 +47,21 @@ Ou une autre du sommaire :
 
 
 
-<div id="toc_container">
+<div id="toc_container" style="background-color: light-grey;">
 <p class="toc_title">Contents</p>
-<ul class="toc_list">
-  <li><a href="01-Stack.md">Quelle stack utiliserons nous ?</a>
-  <ul>
-    <li><a href="#First_Sub_Point_1">1.1 First Sub Point 1</a></li>
-    <li><a href="#First_Sub_Point_2">1.2 First Sub Point 2</a></li>
-  </ul>
-</li>
-<li><a href="#Second_Point_Header">2 Second Point Header</a></li>
-<li><a href="#Third_Point_Header">3 Third Point Header</a></li>
-</ul>
+<ol class="toc_list">
+  <li><a href="01-Stack.md">Quelle stack utiliserons nous ?</a></li>
+  <li><a href="02-Installation.md">Installer cette stack</a></li>
+  <li><a href="03-Git.md">Git</a></li>
+  <li><a href="04-GitHub.md">GitHub - Son interface et son fonctionnement</a></li>
+  <li><a href="05-GitAdvanced.md">Git Avancé</a></li>
+  <li><a href="06-Workflow.md">Workflow - travailler en équipe</a></li>
+  <li><a href="07-FirstContribution.md">Votre première collaboration en ligne</a></li>
+  <ol>
+    <li><a href="07-FirstContribution.md#ExerciceG">Exercice guidé</a></li>
+    <li><a href="07-FirstContribution.md#ExerciceNG">Exercice non guidé</a></li>
+  </ol>
+  <li><a href="08-AdditionnalTricks.md">Trucs et astuces supplémentaires</a></li>
+</ol>
 </div>
 

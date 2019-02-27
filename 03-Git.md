@@ -1,10 +1,10 @@
-## Point sur Git
+# Git
 
 Oui je l'ai dit : on part vraiment de zéro.
 
 De base lorsque vous mettez à jour un fichier (mettons un document word ou un readme.md), vous enregistrez régulièrement. Du moins j'espère. En tout cas, dans pas mal de cas, votre traitement de texte sauvegarde tout ce que vous faites, de manière à pouvoir utiliser le fameux `Ctrl + Z` lorsque vous souhaitez revenir en arrière. Génial non ?
 
-### Alors pourquoi on s'emm\*\*\*\* avec git ?
+## Alors pourquoi on s'emm\*\*\*\* avec git ?
 
 Et bien parce qu'une fois que vous fermez votre fichier et que vous le rouvrez, en général vous ne pouvez plus faire `Ctrl + Z`. Pour les malins qui utilisent un traitement de texte capable de le faire malgré tout : éteignez brusquement votre ordinateur et rallumez-le... Ensuite on en reparle.
 
@@ -12,7 +12,7 @@ Bref c'est dommage.
 
 Un autre cas où le `Ctrl + Z` n'est plus si pratique est le suivant.
 
-#### Le cas de retour vers le futur
+### Le cas de retour vers le futur
 
 Imaginons le cas suivant. Vous modifiez votre fichier au fur et à mesure, et vous le sauvegardez régulièrement. Chaque point ci-dessous représente une sauvegarde de votre fichier (soit par vous, soit par votre éditeur de texte). Les traits reliant les points signifient que vous modifiez le fichier : 
 
@@ -34,7 +34,7 @@ Et bien vous ne pouvez plus, votre éditeur de texte ne peut pas savoir si vous 
 
 
 
-#### <a id="CasGit" style="text-decoration:none;color:#000">Le cas avec git</a>
+### <a id="CasGit" style="text-decoration:none;color:#000">Le cas avec git</a>
 
 Cette fois-ci, utilisons git. Au lieu de simples points, nous allons leurs donner des noms juste pour nous repérer entre nous.
 

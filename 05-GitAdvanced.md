@@ -1,5 +1,8 @@
-# Collaborer - Vos premiers pas sur un projet
+# Git Avancé
 
+## Introduction
+
+Collaborer - Vos premiers pas sur un projet
 
 
 Et voilà, nous y sommes presque. 
