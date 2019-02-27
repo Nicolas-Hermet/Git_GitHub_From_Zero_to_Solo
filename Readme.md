@@ -48,7 +48,7 @@ Ou une autre du sommaire :
 
 
 <div id="toc_container" style="background-color: #f7faff;">
-<div id="toc-wrapper" style="margin-left: auto;margin-right: auto; width: 40%;">
+<div id="toc-wrapper" style="display: block; margin-left: auto;margin-right: auto; width: 60%;">
 <p class="toc_title"><strong>Contents</strong></p>
 <ol class="toc_list">
   <li><a href="01-Stack.md">Quelle stack utiliserons nous ?</a></li>
