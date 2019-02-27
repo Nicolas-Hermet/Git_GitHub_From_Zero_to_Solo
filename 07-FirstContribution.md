@@ -255,3 +255,10 @@ Félicitations !! :champagne::tada:
 
 1. Contribuez à ce repository.
 2. Faites une contribution, dans le dossier SandBox. Attention : aucun code ne sera autorisé. Seulement du MarkDown, HTML5, Text ou éventuellement du LaTeX. Mais n'oubliez pas que certaines personnes peuvent faire pareil que vous au même moment. Faites donc attention à Jean-Claude ou Jean-Claudine !
+
+
+------
+
+
+| <a href="06-Workflow.md">Chapitre précédent</a>  | <a href="08-AdditionnalTricks.md">Chapitre suivant</a> | 
+|:-------------------:|:----------------:|

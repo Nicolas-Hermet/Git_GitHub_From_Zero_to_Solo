@@ -69,3 +69,10 @@ Ici la branche master représente la version en production, la branche de Develo
 Ainsi, à chaque nouvelle tâche, vous partez de la branche Develop, vous créez votre nouvelle branche Feature, vous développez et ensuite, UNE FOIS SEULEMENT que vous avez vérifier que cela n'ajoutait pas de bug, vous faites un merge sur la branche Develop.
 
 Une fois de temps à autre, avant chaque release : vous faites un merge sur la branche master, afin d'en faire profiter vos utilisateurs.
+
+
+------
+
+
+| <a href="05-GitAdvanced.md">Chapitre précédent</a>  | <a href="07-FirstContribution.md">Chapitre suivant</a> | 
+|:-------------------:|:----------------:|

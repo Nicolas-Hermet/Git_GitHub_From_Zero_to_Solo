@@ -41,3 +41,10 @@ il suffit de cliquer sur ce bouton en haut à droite, et de patienter un peu. Un
 ![03Collab_18](D:/ADN/Formation/Git/pictures/03Collab_18.png)
 
 Je vous laisse découvrir toutes les fonctionnalités.
+
+
+------
+
+
+| <a href="07-FIrstContribution.md">Chapitre précédent</a>  |
+|:-------------------:|

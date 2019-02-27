@@ -411,3 +411,10 @@ A moins bien sûr de savoir exactement ce que vous faites.
 
 
 <span style="color:red;">*****</span> : On est d'accord, je parle de Jean-Claude, parce que c'est le premier nom qui me viens. Mais Jean-Claudine aurait pu très bien faire l'affaire aussi :wink:
+
+
+------
+
+
+| <a href="04-GitHub.md">Chapitre précédent</a>  | <a href="06-Workflow.md">Chapitre suivant</a> | 
+|:-------------------:|:----------------:|

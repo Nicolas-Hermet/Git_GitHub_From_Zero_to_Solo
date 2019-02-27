@@ -239,3 +239,9 @@ git pull <nom du dépôt distant> <Nom de votre branche>
 
 pour mettre à jour son travail avec le votre.
 
+
+------
+
+
+| <a href="02-Installation.md">Chapitre précédent</a>  | <a href="04-GitHub.md">Chapitre suivant</a> | 
+|:-------------------:|:----------------:|

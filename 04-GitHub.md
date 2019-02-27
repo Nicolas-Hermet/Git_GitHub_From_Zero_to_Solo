@@ -453,3 +453,10 @@ Fastoche comme exercice n'est-ce pas ?
 
 
 Vous vous demandez sûrement qu'est ce qu'il se serait passé, si vous aviez aussi créé ce même fichier sur votre ordinateur ? Et si le contenu de celui-ci avait été différent ? Ce sont d'excellentes questions. Je les aborde dans le chapitre dédié à la collaboration.
+
+
+------
+
+
+| <a href="03-Git.md">Chapitre précédent</a>  | <a href="05-GitAdvanced.md">Chapitre suivant</a> | 
+|:-------------------:|:----------------:|

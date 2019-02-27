@@ -27,10 +27,8 @@ La stack n'est pas compliquée :
 Pour installer tout ça je préparerais un document d'installation complet un peu plus tard. Pour le moment je vais considérer que tout cela est bien installé sur votre machine.
 
 
-<!-- <div style="display: flex; justify-content: space-around">
-  <span>Chapitre précédent</span>
-  <span>Chapitre Suivant</span>
-</div> -->
+------
 
-| Chapitre précédent  | Chapitre suivant | 
+
+| <a href="Readme.md">Chapitre précédent</a>  | <a href="02-Installation.md">Chapitre suivant</a> | 
 |:-------------------:|:----------------:|
