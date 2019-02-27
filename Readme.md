@@ -50,7 +50,7 @@ Ou une autre du sommaire :
 <div id="toc_container">
 <p class="toc_title">Contents</p>
 <ul class="toc_list">
-  <li><a href="#First_Point_Header">1 First Point Header</a>
+  <li><a href="01-Stack.md">Quelle stack utiliserons nous ?</a>
   <ul>
     <li><a href="#First_Sub_Point_1">1.1 First Sub Point 1</a></li>
     <li><a href="#First_Sub_Point_2">1.2 First Sub Point 2</a></li>
