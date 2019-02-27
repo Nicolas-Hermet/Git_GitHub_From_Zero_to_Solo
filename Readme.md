@@ -47,7 +47,7 @@ Ou une autre du sommaire :
 
 
 
-<div id="toc_container" style="background-color: light-grey;">
+<div id="toc_container" style="background-color: #f7faff;">
 <p class="toc_title">Contents</p>
 <ol class="toc_list">
   <li><a href="01-Stack.md">Quelle stack utiliserons nous ?</a></li>
