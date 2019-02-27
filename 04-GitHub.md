@@ -1,8 +1,6 @@
 # GitHub - Son interface et son fonctionnement
 
-## L'interface d'un repository
-
-### Aperçu rapide des différentes pages
+## Aperçu rapide des différentes pages
 
 Bienvenue dans GitHub. D'abord qu'est ce que GitHub ? C'est ce que l'on appelle un **dépôt distant** pour Git. Mais cela peut aussi être un moyen de sauvegarde de vos dossiers. L'avantage c'est que tous ces dossiers sont versionnés avec Git. 
 Ainsi vous pourriez très bien vous passez d'avoir le moindre dossier sur votre ordinateur. Mais ce ne serait pas très pratique.
@@ -11,7 +9,7 @@ Ainsi vous pourriez très bien vous passez d'avoir le moindre dossier sur votre 
 
 Voyons tout de suite comment cela fonctionne : 
 
-#### Page d'accueil
+### Page d'accueil
 
 ![02github_01](/pictures/02github_01.png)
 
@@ -30,7 +28,7 @@ Voilà à quoi elle ressemble.
 3. Le cadre 3 représente un fil d'actu de ce qu'il se passe dans votre réseau.
 4. Enfin ici, en fonction de vos activités, GitHub vous propose des projets que vous pourriez vouloir consulter.
 
-#### Votre profil - Overview
+### Votre profil - Overview
 
 Cliquez sur votre photo de profil, puis sur "Your Profile" :
 
@@ -54,9 +52,9 @@ Passons à ce qui nous intéresse le plus : vos répertoires.
 
 Cliquez sur l'onglet "**Repositories**", par le biais que vous souhaitez.
 
-#### Vos repositories
+## Vos repositories
 
-#### Créer votre premier repository - pas à pas
+### Créer votre premier repository - pas à pas
 
 Normalement, en arrivant sur cette page, vous n'avez aucun répertoire versionné sur votre machine, ni aucun repository sur GitHub. Si c'est pourtant le cas, vous pouvez vous affranchir de cette partie.
 
@@ -372,7 +370,7 @@ Encore une fois on indique `origin` et `master` mais on verra plus tard la gesti
 
 
 
-##### Exercice : 
+### Exercice : 
 
 Je vous propose donc l'exercice suivant.
 
