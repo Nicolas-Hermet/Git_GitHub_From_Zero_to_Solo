@@ -43,7 +43,7 @@ Rendez-vous sur un de vos repository, et cherchez le bouton *Clone or Download* 
 
 
 
-![03Collab_01](D:/ADN/Formation/Git/pictures/03Collab_01.png)
+![03Collab_01](/pictures/03Collab_01.png)
 
 Comme vous le voyez le menu qui s'affiche, vous avez 4 possibilités. La première est de l'ouvrir dans l'application GitHub Desktop (si vous l'avez téléchargée) : **Open in Desktop**, la deuxième est de **Download Zip** qui téléchargera la copie de la branche sur laquelle vous vous trouvez au format zip sur votre ordinateur. Cependant vous perdrez toute notions de git, pas d'init, pas de commit possible, pas de push ni de pull...
 
@@ -80,7 +80,7 @@ GitHub gardera une trace du lien existant entre votre nouveau repository et celu
 
 Cherchez le bouton *Fork* en haut à droite du repository dont vous souhaitez un fork.
 
-![03Collab_02](D:/ADN/Formation/Git/pictures/03Collab_02.png)
+![03Collab_02](/pictures/03Collab_02.png)
 
 Cliquez dessus, le repository sera directement ajouté à vos repositories personnels. GitHub vous demandera peut-être où vous souhaitez ajouter ce repository : chez vous ? ou dans votre organisation (si vous faites partie d'une).
 
@@ -121,27 +121,27 @@ Nous allons, dans cet exercice, modifier ce repository. Oui, celui que vous ête
 1. **Faites un Fork de ce repository**
 2. **Clonez le repository ainsi créé**
 
-Cliquez simplement sur le bouton ![03Collab_01](D:/ADN/Formation/Git/pictures/03Collab_01.png) et copiez l'adresse HTTPS ou SSH.
+Cliquez simplement sur le bouton ![03Collab_01](/pictures/03Collab_01.png) et copiez l'adresse HTTPS ou SSH.
 
 3. **Ouvrez VS Code**
 
 Utilisez bien la commande `code` dans un terminal git bash pour ce faire.
 
-![1551188647694](D:/ADN/Formation/Git/pictures/03Collab_06.png)
+![1551188647694](/pictures/03Collab_06.png)
 
 Normalement, la page d'accueil doit apparaitre comme ci-dessous. 
 
 D'ici : tapez `F1` ou `Ctrl + P` puis `>`. 
 
-<img src="D:/ADN/Formation/Git/pictures/03Collab_03.png" alt="Clone Popup (Command Popup)" />
+<img src="/pictures/03Collab_03.png" alt="Clone Popup (Command Popup)" />
 
 Entrez `git clone` dans cette barre comme suit : 
 
-<img src="D:/ADN/Formation/Git/pictures/03Collab_04.png" alt="Entrez git clone" />
+<img src="/pictures/03Collab_04.png" alt="Entrez git clone" />
 
 Et copiez l'URL que vous venez de copier dans GitHub. Cela doit fonctionner aussi bien en SSH qu'en HTTPS.
 
-<img src="D:/ADN/Formation/Git/pictures/03Collab_05.png" alt="Collez le chemin d'accès, ici en HTTPS" />
+<img src="/pictures/03Collab_05.png" alt="Collez le chemin d'accès, ici en HTTPS" />
 
 VS Code vous demandera où vous voulez cloner le repository sur votre ordinateur, et vous demandera ensuite s'il doit ouvrir le dossier.
 
@@ -171,7 +171,7 @@ Soyez sympa : n'enlevez rien au fichier, ne faites simplement que rajouter votre
 
 Question syntaxe, c'est un fichier en MarkDown. Si ce n'est pas votre tasse de thé : copié-collez une ligne et remplacer les noms par le votre.
 
-![03Collab_07](D:/ADN/Formation/Git/pictures/03Collab_07.png)
+![03Collab_07](/pictures/03Collab_07.png)
 
 
 
@@ -179,25 +179,25 @@ Question syntaxe, c'est un fichier en MarkDown. Si ce n'est pas votre tasse de t
 
 Vous savez désormais qu'il faut maintenant ajouter ce fichier à l'index, puis le commit. Sous VS Code, rien de plus simple, cherchez l'icone de versionnage sur la gauche de VS Code et cliquez dessus :
 
-![03Collab_08](D:/ADN/Formation/Git/pictures/03Collab_08.png)
+![03Collab_08](/pictures/03Collab_08.png)
 
 Normalement vous devriez avoir la liste des fichiers qui ont été modifiés : 
 
 
 
-![03Collab_09](D:/ADN/Formation/Git/pictures/03Collab_09.png)
+![03Collab_09](/pictures/03Collab_09.png)
 
 
 
 En passant votre souris sur le fichier Contributors.md vous constaterez que plusieurs symboles apparaissent : 
 
-![03Collab_10](D:/ADN/Formation/Git/pictures/03Collab_10.png)
+![03Collab_10](/pictures/03Collab_10.png)
 
 De gauche à droite : le premier sert à ouvrir le fichier si ce n'est pas déjà le cas. Le deuxième sert à annuler l'intégralité des changements apportés à ce fichier depuis le dernier commit, et enfin le `+` sert à ajouter le fichier à l'index. C'est le strict équivalent à `git add Contributors.md`.
 
 
 
-![03Collab_11](D:/ADN/Formation/Git/pictures/03Collab_11.png)
+![03Collab_11](/pictures/03Collab_11.png)
 
 Une fois ce fichier ajouté à l'index, vous pouvez entrer votre message de commit dans le champs situé juste au dessus et appuyer sur `Ctrl + Entrée` lorsque vous aurez fini.
 
@@ -207,7 +207,7 @@ Votre premier commit avec VS Code ! :champagne: :tada:
 
 Maintenant : publiez votre branche. Ce sera fait bien entendu sur votre propre repository. Mais en fonction de votre méthode de clonage, VS Code vous demandera vos identifiants et mot de passe GitHub.
 
-![03Collab_12](D:/ADN/Formation/Git/pictures/03Collab_12.png)
+![03Collab_12](/pictures/03Collab_12.png)
 
 
 
@@ -215,7 +215,7 @@ Maintenant : publiez votre branche. Ce sera fait bien entendu sur votre propre r
 
 Si vous avez bien suivi la partie installation, vous pouvez la faire directement avec VS Code. En bas à gauche de votre fenêtre, si vous êtes dans la partie versionnage vous trouverez un panel pour la gestion des pull requests : 
 
-![03Collab_13](D:/ADN/Formation/Git/pictures/03Collab_13.png)
+![03Collab_13](/pictures/03Collab_13.png)
 
 Cliquez sur le bouton `+` et sélectionner la branche sur laquelle vous voulez faire votre merge.
 
@@ -227,7 +227,7 @@ Dans cette capture d'écran vous ne voyez que la branche master de ce repository
 
 Une page doit s'ouvrir se présentant à peu près comme suit : 
 
-![03Collab_14](D:/ADN/Formation/Git/pictures/03Collab_14.png)
+![03Collab_14](/pictures/03Collab_14.png)
 
 Remplissez la partie description et éventuellement commentaire, afin de bien décrire au propriétaire du repository ce que vous avez fait et en quoi vous apporter une amélioration.
 

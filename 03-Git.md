@@ -49,15 +49,15 @@ Un autre cas où le `Ctrl + Z` n'est plus si pratique est le suivant.
 
 Imaginons le cas suivant. Vous modifiez votre fichier au fur et à mesure, et vous le sauvegardez régulièrement. Chaque point ci-dessous représente une sauvegarde de votre fichier (soit par vous, soit par votre éditeur de texte). Les traits reliant les points signifient que vous modifiez le fichier : 
 
-![01whygit_01](D:/ADN/Formation/Git/pictures/01whygit_01.png)
+![01whygit_01](/pictures/01whygit_01.png)
 
 A un moment donné, vous ressentez le besoin de revenir en arrière. Via `Ctrl + Z`par exemple ?
 
 Cela donnerai ceci : 
 
-![01whygit_02](D:/ADN/Formation/Git/pictures/01whygit_02.png)
+![01whygit_02](/pictures/01whygit_02.png)
 
-où ![01whygit_03](D:/ADN/Formation/Git/pictures/01whygit_03.png) représente un retour en arrière.
+où ![01whygit_03](/pictures/01whygit_03.png) représente un retour en arrière.
 
 
 
@@ -74,7 +74,7 @@ Cette fois-ci, utilisons git. Au lieu de simples points, nous allons leurs donne
 - Ø : représente un état quelconque et sauvegardé de votre fichier.
 - $V_{1}$ : représente un **commit** de votre fichier. Imaginez un commit comme une sauvegarde qui aurait un nom.
 
-![01whygit_04](D:/ADN/Formation/Git/pictures/01whygit_04.png)
+![01whygit_04](/pictures/01whygit_04.png)
 
 Cette fois-ci, grâce à git, il vous est tout à fait possible, lorsque vous vous retrouvez en $V_{5}$, de revenir en $V_{1}$, $V_{2}$, $V_{3}$ ou $V_{4}$.  Magique non ?
 
@@ -82,7 +82,7 @@ Cette fois-ci, grâce à git, il vous est tout à fait possible, lorsque vous vo
 
 On peut même imaginer fusionner les différentes version de votre fichier : 
 
-![1550766628198](D:/ADN/Formation/Git/pictures/01whygit_05.png)
+![1550766628198](/pictures/01whygit_05.png)
 
 Et là vous commencez à sentir l'utilité d'un vrai outil de versionnage de fichiers.
 
@@ -96,7 +96,7 @@ Je ne parle même pas de la collaboration à plusieurs ! Tellement plus simple.
 
 Les amis de chez NDP Software ont pondu un outil que je trouve personnellement génial pour comprendre le fonctionnement de git, et ainsi se repérer dans la multitude de commandes en ligne : 
 
-<span style="text-align: centered;"><a href="http://ndpsoftware.com/git-cheatsheet.html" target="_blank">![01whygit_05](D:/ADN/Formation/Git/pictures/01whygit_06.png)</a> </span> (image cliquable)
+<span style="text-align: centered;"><a href="http://ndpsoftware.com/git-cheatsheet.html" target="_blank">![01whygit_05](/pictures/01whygit_06.png)</a> </span> (image cliquable)
 
 
 
@@ -144,7 +144,7 @@ Mon collègue n'est pas si nul que ça. Il était simplement pressé et a écrit
 
 Vous enregistrez ce document. Il y a donc eu plusieurs modifications. Une pour la mise en forme (de 7 à 3 lignes... comptez bien), une pour les fautes d'orthographes, une autre enfin pour le contenu lui même : votre collègue n'est pas si nul que ça après tout. Mais si vous faites tout d'un coup, votre ligne d'historique ressemblera à ça : 
 
-![01whygit_07](D:/ADN/Formation/Git/pictures/01whygit_07.png)
+![01whygit_07](/pictures/01whygit_07.png)
 
 
 
@@ -204,7 +204,7 @@ qui donne le résultat dans votre terminal :
 
 Et on continue la même opération pour toutes les autres modifications. On aura donc trois commits différents, ce qui nous donne le schéma suivant : 
 
-![01whygit_08](D:/ADN/Formation/Git/pictures/01whygit_08.png)
+![01whygit_08](/pictures/01whygit_08.png)
 
 Chaque fois qu'un commit est fait, l'espace d'index est vidé, et placé dans l'espace de **dépôt local**. Ce dernier ne contient que les changements effectués entre les différents commits.
 

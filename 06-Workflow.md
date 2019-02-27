@@ -58,7 +58,7 @@ Je vais choisir arbitrairement de vous montrer un workflow classique. Mais si ce
 
 
 
-![02github_15](D:/ADN/Formation/Git/pictures/gitflow.svg)
+![02github_15](/pictures/gitflow.svg)
 
 
 
