@@ -12,16 +12,7 @@ Ici on va partir de zéro. Oui de zéro. Il suffira de continuer à lire tranqui
 
 
 
-### D'accord, mais quelle stack ? <a id="stack"></a>
 
-La stack n'est pas compliquée : 
-
-- Windows 10 (oui je sais, c'est le mal)
-- VS Code
-- Git
-- ... GitHub bien sûr (sinon vous ne seriez pas là). Bien sûr on se connectera en SSH.
-
-Pour installer tout ça je préparerais un document d'installation complet un peu plus tard. Pour le moment je vais considérer que tout cela est bien installé sur votre machine.
 
 ## Point sur Git
 
