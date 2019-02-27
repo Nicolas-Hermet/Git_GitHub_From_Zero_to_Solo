@@ -85,7 +85,7 @@ Cela évite des accidents malencontreux, du style Jean-Claude, qui tente un `git
 
 
 
-## Exercice guidé :
+## Exercice guidé : <a id="ExerciceG"></a>
 
 Nous allons, dans cet exercice, modifier ce repository. Oui, celui que vous êtes en train de lire. Nous le ferons à l'aide de VS Code. Nous pourrions le faire avec l'interface web de GitHub, ou tout autre outils. J'ai choisi de vous guider pas à pas par l'intermédiaire de VS Code pour des raisons purement professionnelles. Si toute fois vous souhaitiez faire autrement, je vous renverrai alors vers l'excellent repository suivant : [First Contribution](https://github.com/firstcontributions/first-contributions). Vous le constaterez, je me suis largement inspiré de sa méthode, et je tiens à remercier le propriétaire de ce repository d'avoir mis ce projet en license MIT. C'est d'ailleurs le cas de ce présent repository.
 
@@ -224,7 +224,7 @@ Félicitations !! :champagne::tada:
 
 
 
-## Exercice non guidé : 
+## Exercice non guidé :<a id="ExerciceNG"></a> 
 
 1. Contribuez à ce repository.
 2. Faites une contribution, dans le dossier SandBox. Attention : aucun code ne sera autorisé. Seulement du MarkDown, HTML5, Text ou éventuellement du LaTeX. Mais n'oubliez pas que certaines personnes peuvent faire pareil que vous au même moment. Faites donc attention à Jean-Claude ou Jean-Claudine !
