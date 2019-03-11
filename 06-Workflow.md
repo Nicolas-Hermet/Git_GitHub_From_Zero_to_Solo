@@ -46,7 +46,7 @@ Concrètement vous avez découpé votre code en plusieurs tâches à effectuer. 
 
 ## Les Branches courantes : <a id="branches"></a>
 
-Quelque soit le domaine dans lequel vous développer, vous avez forcément une version du code que vous pouvez distribuer à vos utilisateurs. Celle-ci est stable, fiable, etc...  On appelle ça la production.
+Quelque soit le domaine dans lequel vous développez, vous avez forcément une version du code que vous pouvez distribuer à vos utilisateurs. Celle-ci est stable, fiable, etc...  On appelle ça la production.
 
 Mais il y a aussi une version de votre code sur laquelle vous êtes en train de développer de nouvelles choses. Celle-ci n'est pas entre les mains de vos utilisateurs, à moins que ceux-ci ne viennent directement sur votre GitHub. C'est la version de Développement.
 
