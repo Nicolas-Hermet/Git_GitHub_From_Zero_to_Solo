@@ -47,7 +47,7 @@ Ou une autre du sommaire :
 
 
 
-<div id="toc_container" style="background-color: #f7faff;">
+<div id="toc_container" style="background-color: #e3eaf7;">
 <div id="toc-wrapper" style="display: block; margin-left: auto;margin-right: auto; width: 60%;">
 <p class="toc_title"><strong>Sommaire</strong></p>
 <ol class="toc_list">
